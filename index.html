@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Cositas!</title>
+  </head>
+  <style>
+      body{
+        background-color: #a1d7d7;
+      }
+      header{
+        background-color: #56504d;
+      }
+      .menu-text a{
+        text-decoration: none;
+        color: whitesmoke;
+      }
+      .col{
+        border-left: 1px solid gray;
+        border-right: 1px solid gray;
+      }
+      .logo{
+        width: 100px;
+      }
+      .catalogo{
+        background-color: #a9ccca;
+        height: 500px;
+        width: 100%;
+      }
+      .portada{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      .portada img{ 
+        height: 400px;
+      }
+  </style>
+  <body>
+    <header>
+        <div class="collapse" id="navbarHeader">
+            <div class="container">
+              <div class="row">
+                <div class="col-sm-8 col-md-7 py-4">
+                  <h4 class="text-white">About</h4>
+                  <p class="text-muted">Productos 100% mexicanos de ideas originales de Samantha</p>
+                </div>
+                <div class="col-sm-4 offset-md-1 py-4">
+                  <h4 class="text-white">Contact</h4>
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Follow us on Instagram</a></li>
+                    <li><a href="#" class="text-white">Like us on Facebook</a></li>
+                    <li><a href="#" class="text-white">Whatsapp!</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar nb_header navbar-dark bg-dark shadow-sm" style="background: #56504d !important">
+            <div class="container d-flex justify-content-between">
+              <a href="#" class="navbar-brand d-flex align-items-center">
+                <img class="logo" src="images/logo.jpg" alt="logo">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="48" height="48"
+                viewBox="0 0 172 172"
+                style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                    <path d="M0,172v-172h172v172z" fill="none"></path><g><path d="M122.21406,75.48516c-0.26875,0 -0.50391,0.03359 -0.77266,0c-1.04141,0 -2.04922,-0.23516 -3.05703,-0.43672c-2.41875,-0.5375 -4.80391,-0.83984 -7.28984,-1.04141c-4.33359,-0.33594 -8.70078,-0.47031 -13.03438,-0.57109c-0.13437,0 -0.23516,-0.03359 -0.36953,-0.03359c-0.43672,0.03359 -0.87344,-0.06719 -1.27656,-0.43672c-1.47812,-1.27656 -2.15,-3.56094 -2.78828,-5.30781c-0.90703,-2.48594 -1.98203,-4.90469 -2.98984,-7.35703c-1.24297,-2.98984 -2.92266,-5.57656 -4.53516,-8.36484c-0.33594,-0.57109 -0.67187,-1.17578 -1.00781,-1.78047c-0.16797,0.43672 -0.30234,0.87344 -0.43672,1.24297c-0.40313,1.10859 -0.80625,2.15 -1.41094,3.15781c-1.41094,2.41875 -3.02344,4.73672 -4.36719,7.18906c-2.11641,3.82969 -3.62812,8.46563 -7.39062,11.01875c-0.67187,0.43672 -1.34375,0.36953 -1.84766,0c-0.16797,0.20156 -0.40312,0.36953 -0.70547,0.47031c-4.13203,1.6125 -8.73437,1.00781 -13.03437,1.04141c-4.66953,0 -9.30547,0.10078 -13.94141,0.03359c1.71328,3.25859 5.47578,5.67734 8.0625,7.99531c3.96406,3.52734 6.85313,8.19688 9.675,12.66484c0.10078,0.16797 0.20156,0.36953 0.23516,0.5375c0.43672,0.23516 0.73906,0.70547 0.70547,1.37734c-0.20156,5.03906 -1.91484,9.60781 -3.46016,14.37813c-0.67187,2.04922 -1.27656,4.09844 -2.01562,6.14766c-0.30234,0.83984 -0.63828,1.71328 -0.94063,2.62031c2.31797,-1.20938 4.66953,-2.28438 7.05469,-3.32578c6.51719,-2.85547 12.96719,-5.87891 19.65234,-8.36484c0.36953,-0.33594 0.87344,-0.5375 1.47813,-0.47031c4.60234,0.63828 8.56641,3.59453 12.59766,5.67734c4.33359,2.25078 8.83516,4.09844 13.37031,5.87891c-1.24297,-3.02344 -2.04922,-6.31563 -2.82187,-9.43984c-1.14219,-4.66953 -2.48594,-9.30547 -2.01562,-14.14297c0,-0.40313 0.10078,-0.80625 0.43672,-1.17578c5.61016,-6.55078 12.22812,-12.06016 18.14063,-18.30859c0.10078,-0.33594 0.06719,-0.60469 0.10078,-0.87344z" fill="#000000"></path><path d="M156.47969,58.72188c-7.15547,-14.57969 -20.69375,-26.03516 -35.00469,-33.25781c-14.37813,-7.28984 -31.00703,-11.11953 -47.06484,-8.56641c-26.50547,4.16562 -52.20469,23.61641 -59.76328,49.68516c0,0.30234 -0.06719,0.57109 -0.23516,0.87344c-0.13438,0.47031 -0.26875,0.97422 -0.36953,1.44453c-0.16797,0.33594 -0.33594,0.67188 -0.47031,1.04141c-0.03359,0.30234 -0.10078,0.63828 -0.13438,0.90703c-0.30234,1.37734 -0.67187,2.75469 -0.90703,4.13203c-0.47031,2.58672 -0.36953,5.27422 -1.27656,7.72656c-0.06719,0.70547 -0.16797,1.41094 -0.26875,2.11641c0,0.10078 0,0.16797 0,0.23516c-0.16797,1.47812 -0.30234,2.95625 -0.43672,4.43437c-0.26875,3.09063 -0.40312,6.18125 -0.36953,9.27188c0.10078,6.08047 0.80625,12.16094 2.31797,18.03984c2.92266,11.18672 8.56641,21.76875 17.46875,29.32734c6.11406,5.20703 13.26953,8.63359 20.9625,10.85078c8.39844,2.45234 17.13281,3.82969 25.90078,3.86328c17.30078,0.03359 34.66875,-4.66953 48.9125,-14.68047c26.3375,-18.54375 46.19141,-56.06797 30.73828,-87.44453zM126.64844,75.61953c0.13437,0.50391 0.03359,1.075 -0.40313,1.54531c-6.11406,6.71875 -13.16875,12.49687 -19.11484,19.35v0c-0.43672,4.3 1.00781,8.66719 2.04922,12.79922c0.94063,3.66172 1.81406,7.65938 3.66172,10.98516c0.70547,1.24297 -0.23516,2.48594 -1.31016,2.6875c-0.50391,0.50391 -1.24297,0.80625 -2.04922,0.47031c-5.24063,-2.04922 -10.51484,-4.06484 -15.52031,-6.65156c-3.59453,-1.88125 -7.22266,-4.60234 -11.2875,-5.44219c-0.10078,0.06719 -0.20156,0.10078 -0.30234,0.13437c-6.41641,2.38516 -12.59766,5.27422 -18.87969,7.99531c-2.11641,0.94062 -4.26641,1.84766 -6.34922,2.92266c-0.90703,0.47031 -1.84766,0.94063 -2.6875,1.51172c-0.26875,0.20156 -0.60469,0.36953 -0.83984,0.60469l-0.03359,0.03359c-0.43672,2.04922 -3.59453,1.31016 -3.42656,-0.77266c0,-0.10078 -0.03359,-0.20156 0,-0.33594c0.23516,-4.09844 2.11641,-7.99531 3.35938,-11.85859c1.47812,-4.73672 3.46016,-9.40625 3.72891,-14.41172c-0.13437,-0.10078 -0.26875,-0.26875 -0.36953,-0.43672c-3.02344,-4.80391 -6.11406,-9.43984 -10.48125,-13.16875c-3.19141,-2.72109 -7.28984,-5.81172 -8.33125,-10.07812c-0.80625,-1.04141 -0.43672,-2.88906 1.20938,-2.82187c5.375,0.16797 10.75,0.03359 16.125,0.03359c4.13203,0 8.66719,0.67188 12.63125,-0.87344c0.57109,-0.23516 1.075,-0.13438 1.44453,0.10078c0.06719,-0.06719 0.16797,-0.13438 0.26875,-0.20156c1.94844,-1.31016 3.05703,-3.56094 4.09844,-5.61016c1.00781,-2.01562 2.01563,-3.99766 3.19141,-5.9125c1.54531,-2.45234 3.32578,-4.90469 4.33359,-7.62578c0.73906,-2.01562 1.44453,-3.96406 3.12422,-5.375c0.26875,-0.20156 0.50391,-0.33594 0.73906,-0.36953c0.70547,-0.36953 1.57891,-0.23516 2.21719,0.60469c0.16797,0.20156 0.23516,0.47031 0.33594,0.73906c0.13437,0.40312 0.13437,0.77266 0,1.10859c0.33594,1.51172 1.54531,3.05703 2.28438,4.26641c1.41094,2.28438 2.72109,4.56875 3.72891,7.05469c0.97422,2.38516 2.04922,4.73672 2.92266,7.12187c0.43672,1.20937 0.83984,3.05703 1.71328,4.16563c4.73672,0.13437 9.47344,0.26875 14.21016,0.70547c2.6875,0.23516 5.20703,0.77266 7.86094,1.24297c2.08281,0.36953 3.99766,-0.13437 6.01328,0.77266c1.41094,0.67187 1.10859,2.28437 0.13437,2.98984z" fill="#9b59b6"></path><path d="M156.37891,51.70078c-8.46562,-13.57187 -22.13828,-24.05312 -36.51641,-30.77187c-14.54609,-6.78594 -31.20859,-9.91016 -47.13203,-7.15547c-27.47969,4.77031 -53.75,25.09453 -61.44297,52.27187c-1.10859,1.84766 -1.27656,4.40078 -1.74687,6.45c-0.33594,1.44453 -0.57109,2.92266 -0.77266,4.40078c-0.03359,0.13438 -0.03359,0.30234 -0.06719,0.43672c-0.03359,0.10078 -0.06719,0.16797 -0.06719,0.26875c-0.26875,1.41094 -0.50391,2.82188 -0.70547,4.23281c0,0.03359 -0.03359,0.03359 -0.03359,0.06719c-0.16797,0.40312 -0.20156,0.77266 -0.13437,1.075c-0.33594,2.72109 -0.57109,5.44219 -0.77266,8.16328c-0.26875,3.82969 -0.30234,7.69297 -0.10078,11.52266c0.43672,7.49141 1.88125,14.94922 4.46797,22.00391c5.13984,14.04219 15.28516,25.69922 28.92422,32.01484c7.76016,3.56094 16.39375,5.61016 24.82578,6.71875c8.56641,1.10859 17.30078,1.04141 25.86719,-0.20156c17.09922,-2.48594 33.08984,-9.97734 45.72109,-21.76875c12.22812,-11.38828 21.83594,-26.06875 26.23672,-42.26094c4.46797,-16.09141 2.35156,-33.22422 -6.55078,-47.46797zM125.70781,146.16641c-14.24375,10.01094 -31.61172,14.71406 -48.9125,14.68047c-8.76797,-0.03359 -17.50234,-1.41094 -25.90078,-3.86328c-7.69297,-2.25078 -14.84844,-5.64375 -20.9625,-10.85078c-8.90234,-7.55859 -14.54609,-18.14062 -17.46875,-29.32734c-1.54531,-5.87891 -2.21719,-11.95938 -2.31797,-18.03984c-0.06719,-3.09063 0.06719,-6.18125 0.36953,-9.27188c0.13438,-1.47812 0.26875,-2.95625 0.43672,-4.43437c0,-0.06719 0,-0.16797 0,-0.23516c0.10078,-0.70547 0.20156,-1.41094 0.26875,-2.11641c0.90703,-2.45234 0.80625,-5.17344 1.27656,-7.72656c0.26875,-1.37734 0.60469,-2.75469 0.90703,-4.13203c0.06719,-0.26875 0.10078,-0.57109 0.13438,-0.90703c0.13437,-0.33594 0.30234,-0.70547 0.47031,-1.04141c0.13438,-0.47031 0.23516,-0.97422 0.36953,-1.44453c0.16797,-0.30234 0.26875,-0.60469 0.23516,-0.87344c7.59219,-26.06875 33.25781,-45.51953 59.76328,-49.68516c16.09141,-2.55312 32.68672,1.27656 47.06484,8.56641c14.31094,7.22266 27.81563,18.71172 35.00469,33.25781c15.48672,31.37656 -4.36719,68.90078 -30.73828,87.44453z" fill="#333333"></path><path d="M126.51406,72.69688c-2.01562,-0.90703 -3.93047,-0.40313 -6.01328,-0.77266c-2.65391,-0.50391 -5.17344,-1.00781 -7.86094,-1.24297c-4.73672,-0.43672 -9.47344,-0.57109 -14.21016,-0.70547c-0.87344,-1.10859 -1.27656,-2.95625 -1.71328,-4.16562c-0.87344,-2.41875 -1.94844,-4.77031 -2.92266,-7.12188c-1.04141,-2.48594 -2.31797,-4.77031 -3.72891,-7.05469c-0.73906,-1.20937 -1.98203,-2.72109 -2.28438,-4.26641c0.10078,-0.30234 0.13438,-0.70547 0,-1.10859c-0.10078,-0.26875 -0.16797,-0.5375 -0.33594,-0.73906c-0.63828,-0.83984 -1.54531,-0.94063 -2.21719,-0.60469c-0.23516,0.03359 -0.50391,0.16797 -0.73906,0.36953c-1.71328,1.41094 -2.38516,3.35938 -3.12422,5.375c-1.00781,2.72109 -2.78828,5.17344 -4.33359,7.62578c-1.20937,1.91484 -2.18359,3.89688 -3.19141,5.9125c-1.00781,2.01563 -2.15,4.3 -4.09844,5.61016c-0.10078,0.06719 -0.20156,0.13438 -0.26875,0.20156c-0.36953,-0.26875 -0.87344,-0.33594 -1.44453,-0.10078c-3.93047,1.54531 -8.49922,0.87344 -12.63125,0.87344c-5.375,0 -10.75,0.13438 -16.125,-0.03359c-1.64609,-0.03359 -2.01562,1.81406 -1.20937,2.82187c1.04141,4.3 5.13984,7.39063 8.33125,10.07813c4.36719,3.69531 7.45781,8.33125 10.48125,13.16875c0.10078,0.16797 0.23516,0.33594 0.36953,0.43672c-0.26875,5.00547 -2.25078,9.675 -3.72891,14.41172c-1.20938,3.86328 -3.12422,7.79375 -3.35937,11.85859c0,0.13437 0,0.23516 0,0.33594c-0.20156,2.11641 2.98984,2.85547 3.42656,0.77266l0.03359,-0.03359c0.23516,-0.23516 0.5375,-0.40312 0.83984,-0.60469c0.87344,-0.57109 1.78047,-1.04141 2.6875,-1.51172c2.08281,-1.075 4.19922,-1.98203 6.34922,-2.92266c6.24844,-2.72109 12.46328,-5.64375 18.87969,-7.99531c0.10078,-0.03359 0.20156,-0.10078 0.30234,-0.13437c4.06484,0.83984 7.65937,3.56094 11.2875,5.44219c5.00547,2.58672 10.27969,4.60234 15.52031,6.65156c0.80625,0.33594 1.57891,0.03359 2.04922,-0.47031c1.075,-0.20156 2.01563,-1.44453 1.31016,-2.6875c-1.88125,-3.32578 -2.75469,-7.32344 -3.66172,-10.98516c-1.04141,-4.13203 -2.48594,-8.49922 -2.04922,-12.79922v0c5.94609,-6.85312 13.03438,-12.63125 19.11484,-19.35c0.43672,-0.47031 0.5375,-1.04141 0.40313,-1.54531c0.97422,-0.77266 1.27656,-2.38516 -0.13437,-2.98984zM104.10703,94.6c-0.33594,0.36953 -0.43672,0.77266 -0.43672,1.17578c-0.47031,4.8375 0.87344,9.47344 2.01563,14.14297c0.77266,3.12422 1.54531,6.41641 2.82187,9.43984c-4.53516,-1.78047 -9.03672,-3.62813 -13.37031,-5.87891c-4.03125,-2.08281 -7.99531,-5.03906 -12.59766,-5.67734c-0.60469,-0.10078 -1.14219,0.10078 -1.47813,0.47031c-6.65156,2.48594 -13.13516,5.50937 -19.65234,8.36484c-2.38516,1.04141 -4.77031,2.11641 -7.05469,3.32578c0.30234,-0.90703 0.60469,-1.78047 0.94063,-2.62031c0.73906,-2.04922 1.34375,-4.09844 2.01563,-6.14766c1.54531,-4.73672 3.225,-9.33906 3.46016,-14.37812c0.03359,-0.67187 -0.26875,-1.14219 -0.70547,-1.37734c-0.03359,-0.16797 -0.13437,-0.36953 -0.23516,-0.5375c-2.78828,-4.46797 -5.71094,-9.10391 -9.675,-12.66484c-2.58672,-2.31797 -6.38281,-4.73672 -8.0625,-7.99531c4.66953,0.06719 9.30547,0 13.94141,-0.03359c4.3,0 8.90234,0.57109 13.03438,-1.04141c0.30234,-0.10078 0.50391,-0.26875 0.70547,-0.47031c0.50391,0.33594 1.17578,0.43672 1.84766,0c3.79609,-2.55312 5.27422,-7.18906 7.39063,-11.01875c1.34375,-2.45234 2.98984,-4.73672 4.36719,-7.18906c0.60469,-1.00781 1.00781,-2.04922 1.41094,-3.15781c0.13438,-0.36953 0.26875,-0.80625 0.43672,-1.24297c0.33594,0.63828 0.70547,1.20938 1.00781,1.78047c1.6125,2.78828 3.29219,5.375 4.53516,8.36484c1.00781,2.45234 2.08281,4.87109 2.98984,7.35703c0.63828,1.74687 1.31016,4.03125 2.78828,5.30781c0.40312,0.33594 0.83984,0.47031 1.27656,0.43672c0.10078,0.03359 0.23516,0.03359 0.36953,0.03359c4.33359,0.13437 8.70078,0.26875 13.03438,0.57109c2.48594,0.20156 4.87109,0.50391 7.28984,1.04141c1.00781,0.23516 2.01563,0.43672 3.05703,0.43672c0.235160 0.50391,0 0.77266,0c-0.03359,0.26875 -0.03359,0.5375 0.03359,0.80625c-6.01328,6.31562 -1266484,11.85859 -18.275,18.37578z" fill="#333333"></path></g></g>
+                </svg> -->
+                <!--<strong>Home</strong>!-->
+              </a>
+              <div class="row">
+                <div class="col col-6 col-md-4 col-lg ">
+                    <p class="menu-text"><a href="#">Vestidos</a></p>
+                </div>
+                <div class="col col-6 col-md-4 col-lg ">
+                    <p class="menu-text"><a href="#">Chales</a></p>
+                </div>
+                <div class="col col-6 col-md-4 col-lg">
+                    <p class="menu-text"><a href="#">Accesorios</a></p>
+                </div>
+                <div class="col col-6 col-md-4 col-lg">
+                    <p class="menu-text"><a href="#">Zapatos</a></p>
+                </div>
+                <div class="col col-6 col-md-4 col-lg">
+                  <p class="menu-text"><a href="#">Interiores</a></p>
+                </div>
+                <div class="col col-6 col-md-4 col-lg">
+                    <p class="menu-text"><a href="#">Especiales</a></p>
+                </div>
+              </div>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </div>
+    </header>
+
+    <section class="portada">
+
+      <img src="images/lema.jpg" alt="portada">
+    
+    </section>
+
+    <section class="catalogo">
+      <div class="album py-5 bg-light" style="background-color: #a9ccca !important;">
+        <div class="container">
+    
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
+                <div class="card-body">
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Comprar</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary">Agregar</button>
+                    </div>
+                    <small class="text-muted">$229 MXN</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
